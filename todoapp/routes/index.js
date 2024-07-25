@@ -6,7 +6,7 @@ let todos = [];
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { 
-    title: 'ToDo App', 
+    title: 'ToDo Appli', 
     todos: todos, 
   });
 });
